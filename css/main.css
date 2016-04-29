@@ -231,6 +231,7 @@ h3 {
   padding-bottom: 1.5rem;
   padding-top: 18rem;
   display: block;
+  border-radius: 1rem;
 }
 
 .title {
@@ -241,6 +242,14 @@ h3 {
 .text {
   text-align: left;
   padding: 1rem;
+}
+
+footer {
+  background-color: #003300;
+  padding: 3rem;
+  text-align: center;
+  color:#ffffcc;
+  font-size: 0.4rem;
 }
 
 @media only screen and (min-width: 25rem) {
