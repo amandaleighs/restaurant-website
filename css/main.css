@@ -331,21 +331,14 @@ footer {
   }
 
   .btn {
-    display: inline-block;
     font-size: 0.8rem;
     padding: .6em;
   }
 
   .btn:hover {
-    display: inline-block;
-    background-color: #030;
-    border-radius: 8px;
-    color: #fff;
-    text-decoration: none;
+
     font-size: 0.8rem;
     padding: .6em;
-    border-width: 4px;
-    text-align: center;
   }
 
   .banner-content {
