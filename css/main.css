@@ -241,11 +241,10 @@ h3 {
 }
 
 footer {
-  background-color: #003300;
+  background-color: #ccc;
   padding: 3rem;
   text-align: center;
-  color:#ffffcc;
-  font-size: 0.4rem;
+  font-size: 0.5rem;
 }
 
 @media only screen and (min-width: 25em) {
