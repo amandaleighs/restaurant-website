@@ -62,6 +62,10 @@ nav a {
   text-decoration: none;
 }
 
+.about-section {
+  clear:both;
+}
+
 .btn {
   display: inline-block;
   background-color: #363;
@@ -80,7 +84,7 @@ nav a {
   border-radius: 5px;
   color: #ffc;
   text-decoration: none;
-  font-size: 0.6rem;
+  font-size: 0.1rem;
   padding: .5em;
   border-width: 3px;
   text-align: center;
@@ -198,6 +202,7 @@ h3 {
 
 .weekdeal {
   background-color: #963;
+  padding-bottom: 1.5rem;
 }
 
 .list {
@@ -207,6 +212,9 @@ h3 {
   box-sizing: border-box;
   padding: 1.75rem;
   border-left: 1px solid #222;
+  border-right: 1px solid #222;
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
 }
 
 .box {
@@ -216,20 +224,17 @@ h3 {
 .about {
   font-size: 1.5rem;
   background-color: #fc3;
-  padding-bottom: 1.5rem;
-  padding-top: 18rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
   display: block;
-  border-radius: 1rem;
 }
 
 .title {
-  margin-top: 28rem;
   text-align: center;
 }
 
 .text {
   text-align: left;
-  padding: 1rem;
 }
 
 footer {
@@ -248,18 +253,11 @@ footer {
   }
 
   h2 {
-    margin: 0;
-    color: black;
     font-size: 1.5rem;
-    font-style: normal;
-    padding: 0;
-    text-align: center;
   }
 
   p {
-    margin-bottom: 1.25rem;
     font-size: 1rem;
-    text-align: center;
   }
 
   .imgd {
@@ -272,23 +270,7 @@ footer {
   }
 
   .btn2:hover {
-    display: inline-block;
-    background-color: #c90;
-    border-radius: 5px;
-    color: #000;
-    text-decoration: none;
     font-size: 0.7rem;
-    padding: .6em;
-    border-width: 4px;
-    text-align: center;
-  }
-
-  .about {
-    font-size: 1.5rem;
-    background-color: #fc3;
-    margin-top: 3rem;
-    padding-top: 30rem;
-    display: block;
   }
 
 }
@@ -342,14 +324,8 @@ footer {
   }
 
   .banner-content {
-    padding: 0;
     position: absolute;
     top: 6rem;
-    font-size: 1.5rem;
-    width: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    max-height: 90%;
   }
 
   h2 {
@@ -361,15 +337,7 @@ footer {
   }
 
   .btn2:hover {
-    display: inline-block;
-    background-color: #c90;
-    border-radius: 5px;
-    color: #000;
-    text-decoration: none;
     font-size: 0.9rem;
-    padding: .6em;
-    border-width: 4px;
-    text-align: center;
   }
 
   .imgd {
@@ -381,7 +349,6 @@ footer {
   h3 {
     display: inline-block;
     font-size: 1.85rem;
-    color: #030;
     float: right;
     position: absolute;
     left:48%;
@@ -393,7 +360,7 @@ footer {
     font-size: 1rem;
     float: right;
     position: absolute;
-    bottom: 15%;
+    bottom: 17%;
     left: 48%;
   }
 
@@ -409,18 +376,10 @@ footer {
   .btn3 {
     margin-left: 2.25rem;
     margin-right: 2.25rem;
+    font-size: 0.4rem;
   }
 
   .btn3:hover {
-    display: block;
-    background-color: #030;
-    border-radius: 5px;
-    color: #ffc;
-    text-decoration: none;
-    font-size: 0.6rem;
-    padding: .5em;
-    border-width: 3px;
-    text-align: center;
     margin-left: 2.25rem;
     margin-right: 2.25rem;
   }
@@ -458,36 +417,18 @@ footer {
   }
 
   .btn {
-    display: inline-block;
-    background-color: #363;
     border-radius: 8px;
-    color: #fff;
-    text-decoration: none;
     font-size: 0.875rem;
-    padding: .5em;
-    border-width: 3px;
-    text-align: center;
   }
 
   .btn:hover {
-    display: inline-block;
-    background-color: #030;
     border-radius: 8px;
-    color: #fff;
-    text-decoration: none;
     font-size: 0.875rem;
-    padding: .5em;
-    border-width: 3px;
-    text-align: center;
   }
 
   .banner-content {
-    padding: 0;
     position: absolute;
     top: 10rem;
-    left: 50%;
-    transform: translateX(-50%);
-    max-height: 90%;
   }
 
   h2 {
@@ -504,7 +445,6 @@ footer {
   h3 {
     display: inline-block;
     font-size: 2.25rem;
-    color: #030;
     float: right;
     position: absolute;
     left:48%;
@@ -535,15 +475,6 @@ footer {
   }
 
   .btn3:hover {
-    display: block;
-    background-color: #030;
-    border-radius: 5px;
-    color: #ffc;
-    text-decoration: none;
-    font-size: 0.6rem;
-    padding: .5em;
-    border-width: 3px;
-    text-align: center;
     margin-left: 5.25rem;
     margin-right: 5.25rem;
   }
@@ -581,36 +512,18 @@ footer {
   }
 
   .btn {
-    display: inline-block;
-    background-color: #363;
     border-radius: 8px;
-    color: #fff;
-    text-decoration: none;
     font-size: 0.875rem;
-    padding: .5em;
-    border-width: 3px;
-    text-align: center;
   }
 
   .btn:hover {
-    display: inline-block;
-    background-color: #030;
     border-radius: 8px;
-    color: #fff;
-    text-decoration: none;
     font-size: 0.875rem;
-    padding: .5em;
-    border-width: 3px;
-    text-align: center;
   }
 
   .banner-content {
-    padding: 0;
-    position: absolute;
     top: 10rem;
     left: 50%;
-    transform: translateX(-50%);
-    max-height: 90%;
   }
 
   h2 {
@@ -627,7 +540,6 @@ footer {
   h3 {
     display: inline-block;
     font-size: 2.25rem;
-    color: #030;
     float: right;
     position: absolute;
     left:48%;
