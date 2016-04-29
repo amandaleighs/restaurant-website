@@ -1,6 +1,5 @@
 @-moz-viewport {
   width: device-width;
-  scale: 1;
 }
 
 @-ms-viewport {
@@ -252,7 +251,7 @@ footer {
   font-size: 0.4rem;
 }
 
-@media only screen and (min-width: 25rem) {
+@media only screen and (min-width: 25em) {
 
   nav li{
     display: inline-block;
@@ -317,7 +316,7 @@ footer {
 
 }
 
-@media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 38em) {
 
   html {
     font-size: 110%;
@@ -485,10 +484,10 @@ footer {
 
 }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 60em) {
 
   html {
-    font-size: 110%;
+    font-size: 120%;
     line-height: 1.5;
   }
 
@@ -616,3 +615,136 @@ footer {
   }
 
 }
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
+
+    header {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      text-align: left;
+    }
+
+    h1,
+    nav {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    nav{
+      padding-left: 2rem;
+      position: absolute;
+      right: 10%;
+    }
+
+    h1 {
+      margin-bottom: 0;
+      margin-right: 1.5rem;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #336633;
+      border-radius: 8px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.875rem;
+      padding: .5em;
+      border-width: 3px;
+      text-align: center;
+    }
+
+    .btn:hover {
+      display: inline-block;
+      background-color: #003300;
+      border-radius: 8px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.875rem;
+      padding: .5em;
+      border-width: 3px;
+      text-align: center;
+    }
+
+    .banner-content {
+      padding: 0;
+      position: absolute;
+      top: 10rem;
+      left: 50%;
+      transform: translateX(-50%);
+      max-height: 90%;
+    }
+
+    h2 {
+      font-size: 2.25rem;
+      position: relative;
+    }
+
+    .imgd {
+      display: inline-block;
+      width:40%;
+      padding: 2rem;
+    }
+
+    h3 {
+      display: inline-block;
+      font-size: 2.25rem;
+      color: #003300;
+      float: right;
+      position: absolute;
+      left:48%;
+      bottom:20%;
+    }
+
+    .deal1 {
+      display: inline-block;
+      font-size: 1.25rem;
+      float: right;
+      position: absolute;
+      bottom: 15%;
+      left: 48%;
+    }
+
+    .deal2 {
+      display: inline-block;
+      font-size: 1.25rem;
+      float: right;
+      position: absolute;
+      bottom: 5%;
+      left: 48%;
+    }
+
+    .btn3 {
+      display: block;
+      background-color: #336633;
+      border-radius: 5px;
+      color: #ffffcc;
+      text-decoration: none;
+      font-size: 0.6rem;
+      padding: .5em;
+      border-width: 3px;
+      text-align: center;
+      margin-left: 5.25rem;
+      margin-right: 5.25rem;
+    }
+
+    .btn3:hover {
+    display: block;
+    background-color: #003300;
+    border-radius: 5px;
+    color: #ffffcc;
+    text-decoration: none;
+    font-size: 0.6rem;
+    padding: .5em;
+    border-width: 3px;
+    text-align: center;
+    margin-left: 5.25rem;
+    margin-right: 5.25rem;
+    }
+
+  }
