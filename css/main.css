@@ -98,6 +98,18 @@ nav a {
   transform: translateX(-50%);
 }
 
+.x {
+  width: 5%;
+  padding: 0.2rem;
+  float:left;
+}
+
+.x2 {
+  width: 5%;
+  padding: 0.2rem;
+  float:right;
+}
+
 .btn:hover {
   display: inline-block;
   background-color: #030;
