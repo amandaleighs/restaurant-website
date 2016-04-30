@@ -83,18 +83,6 @@ nav a {
   display: block;
 }
 
-.btn3 {
-  display: block;
-  background-color: #363;
-  border-radius: 5px;
-  color: #ffc;
-  text-decoration: none;
-  font-size: 0.1rem;
-  padding: .5em;
-  border-width: 3px;
-  text-align: center;
-}
-
 .btn2 {
   display: inline-block;
   background-color: #fc3;
@@ -134,13 +122,25 @@ nav a {
   text-align: center;
 }
 
+.btn3 {
+  display: block;
+  background-color: #363;
+  border-radius: 5px;
+  color: #ffc;
+  text-decoration: none;
+  font-size: 0.1rem;
+  padding: .5em;
+  border-width: 3px;
+  text-align: center;
+}
+
 .btn3:hover {
   display: block;
   background-color: #030;
   border-radius: 5px;
   color: #ffc;
   text-decoration: none;
-  font-size: 0.6rem;
+  font-size: 0.1rem;
   padding: .5em;
   border-width: 3px;
   text-align: center;
